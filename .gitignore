@@ -1,0 +1,26 @@
+﻿# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.env
+.venv
+venv/
+ENV/
+env/
+*.log
+
+# --- Project outputs ---
+data/logs/*
+!data/logs/.gitkeep
+reports/
+*.png
+*.csv
+
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
